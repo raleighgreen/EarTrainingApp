@@ -74,11 +74,11 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2017-04-30T00:53:07Z</date>
+	<date>2017-04-30T00:57:29Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>3</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -289,7 +289,7 @@
 						<key>timeCursors</key>
 						<dict>
 							<key>kTimelineDefaultIdentifier</key>
-							<real>0.0</real>
+							<real>2</real>
 						</dict>
 						<key>timescale</key>
 						<integer>60</integer>
@@ -390,6 +390,12 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>RotationAngleY</string>
+							<key>objectValue</key>
+							<string>0deg</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>ClassType</string>
 							<key>objectValue</key>
 							<string>Rectangle</string>
@@ -480,6 +486,12 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>RotationAngleZ</string>
+							<key>objectValue</key>
+							<string>0deg</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Overflow</string>
 							<key>objectValue</key>
 							<string>visible</string>
@@ -531,7 +543,268 @@
 				<array>
 					<dict>
 						<key>animations</key>
-						<array/>
+						<array>
+							<dict>
+								<key>duration</key>
+								<real>2</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>113px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>5</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>412px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>BE492818-B538-488F-B905-3D38FFB799AE-51646-0004CAAC23B4934B</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>2</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>141px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>5</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>141px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>BF15C3BF-6260-43E0-B82F-2B51F6DB9384-51646-0004CAAC23C2EABA</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>2</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>RotationAngleZ</string>
+									<key>objectValue</key>
+									<string>271deg</string>
+								</dict>
+								<key>identifier</key>
+								<string>RotationAngleZ</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>5</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>RotationAngleZ</string>
+									<key>objectValue</key>
+									<string>0deg</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>8315AD13-EA38-47DD-A1B1-0B5599C015E5-51646-0004CAAE8308B589</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>2</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>RotationAngleY</string>
+									<key>objectValue</key>
+									<string>-177deg</string>
+								</dict>
+								<key>identifier</key>
+								<string>RotationAngleY</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>5</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>RotationAngleY</string>
+									<key>objectValue</key>
+									<string>0deg</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>E9C28365-5838-4786-B4C6-DE675A5A3529-51646-0004CAAFD131006F</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>5</string>
+								<key>startTime</key>
+								<real>2</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>113px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>04A2D9BA-6D58-4AE3-8075-58512049098F-51646-0004CAAC23BBECF0</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>5</string>
+								<key>startTime</key>
+								<real>2</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>141px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>2082ED32-C325-45C6-A12A-927E51EBE6EB-51646-0004CAAC23C6CA40</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>RotationAngleZ</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>5</string>
+								<key>startTime</key>
+								<real>2</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>RotationAngleZ</string>
+									<key>objectValue</key>
+									<string>271deg</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>816ADA46-A8A7-4BDA-9DCD-F0C4ABEBA513-51646-0004CAAE831DC3EE</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>RotationAngleY</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>5</string>
+								<key>startTime</key>
+								<real>2</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>RotationAngleY</string>
+									<key>objectValue</key>
+									<string>-177deg</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>CD513C82-9B5A-4A82-9D98-44D21F47D25A-51646-0004CAAFD148A933</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+						</array>
 						<key>firstKeyframeIsRelative</key>
 						<false/>
 						<key>framesPerSecond</key>
