@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>1007</string>
+	<string>631</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -75,7 +75,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2017-05-04T03:15:16Z</date>
+	<date>2017-05-04T03:24:37Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -221,7 +221,7 @@
 		<key>keyframeTimelineHeight</key>
 		<real>66</real>
 		<key>mainWindowFrame</key>
-		<string>41 955 1778 1122 0 900 1920 1177 </string>
+		<string>63 955 1778 1122 0 900 1920 1177 </string>
 		<key>openTabs</key>
 		<array/>
 		<key>selectedTabIndex</key>
@@ -1926,7 +1926,7 @@
 						<key>timeCursors</key>
 						<dict>
 							<key>kTimelineDefaultIdentifier</key>
-							<real>8.9333333969116211</real>
+							<real>23.666666030883789</real>
 						</dict>
 						<key>timescale</key>
 						<integer>60</integer>
@@ -2222,7 +2222,7 @@
 						<key>timeCursors</key>
 						<dict>
 							<key>kTimelineDefaultIdentifier</key>
-							<real>8.8999996185302734</real>
+							<real>17</real>
 						</dict>
 						<key>timescale</key>
 						<integer>30</integer>
@@ -2264,7 +2264,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>632</string>
 					<key>scrollViewOffset</key>
-					<string>{37, 177}</string>
+					<string>{38, 178}</string>
 					<key>userGuides</key>
 					<array>
 						<dict>
@@ -21273,7 +21273,7 @@
 												<key>loop</key>
 												<false/>
 												<key>resourceGroupOid</key>
-												<string>1362</string>
+												<string>1359</string>
 												<key>type</key>
 												<integer>12</integer>
 											</dict>
@@ -25602,13 +25602,14 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>currentGroupElement</key>
-			<string>463</string>
 			<key>documentIdentifier</key>
 			<string>C5D7AE10-8CE9-4A9B-9524-774ADB4BCFE6-370-0000067F633E0E0D</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>470</string>
+				<string>430</string>
+				<string>426</string>
+				<string>459</string>
+				<string>448</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -48152,7 +48153,7 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>3</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -48162,12 +48163,14 @@
 										<key>actions</key>
 										<array>
 											<dict>
-												<key>loop</key>
-												<false/>
-												<key>resourceGroupOid</key>
-												<string>1344</string>
+												<key>duration</key>
+												<real>1.1000000000000001</real>
+												<key>sceneSymbol</key>
+												<integer>1</integer>
+												<key>transition</key>
+												<integer>1</integer>
 												<key>type</key>
-												<integer>12</integer>
+												<integer>1</integer>
 											</dict>
 										</array>
 									</dict>
@@ -48270,66 +48273,6 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict>
-												<key>loop</key>
-												<false/>
-												<key>resourceGroupOid</key>
-												<string>1344</string>
-												<key>type</key>
-												<integer>12</integer>
-											</dict>
-										</array>
-									</dict>
-								</dict>
-								<key>identifier</key>
-								<string>ActionHandler</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>kTimelineDefaultIdentifier</string>
-								<key>startTime</key>
-								<real>22</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict>
-												<key>loop</key>
-												<false/>
-												<key>resourceGroupOid</key>
-												<string>1344</string>
-												<key>type</key>
-												<integer>12</integer>
-											</dict>
-										</array>
-									</dict>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>2</integer>
-								<key>uuid</key>
-								<string>05BC68F0-9C15-4959-9081-DA8AC01BB0FB-51646-000599544168E2A6</string>
-								<key>zIndex</key>
-								<integer>31</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
 								<real>0.0</real>
 								<key>identifier</key>
 								<string>Left</string>
@@ -48385,68 +48328,6 @@
 								<string>B27FEE0C-EB1B-4C13-9A11-433E91CAD529-51646-00054582645F0FFE</string>
 								<key>zIndex</key>
 								<integer>27</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict>
-												<key>duration</key>
-												<real>1.1000000000000001</real>
-												<key>sceneSymbol</key>
-												<integer>1</integer>
-												<key>transition</key>
-												<integer>1</integer>
-												<key>type</key>
-												<integer>1</integer>
-											</dict>
-										</array>
-									</dict>
-								</dict>
-								<key>identifier</key>
-								<string>ActionHandler</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>kTimelineDefaultIdentifier</string>
-								<key>startTime</key>
-								<real>23</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict>
-												<key>loop</key>
-												<false/>
-												<key>resourceGroupOid</key>
-												<string>1344</string>
-												<key>type</key>
-												<integer>12</integer>
-											</dict>
-										</array>
-									</dict>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>2</integer>
-								<key>uuid</key>
-								<string>CB420CAA-CECC-404E-902D-3E55FA5644C2-51646-0005995441697F10</string>
-								<key>zIndex</key>
-								<integer>32</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -48518,7 +48399,7 @@
 								<key>uuid</key>
 								<string>3D31F3F9-B649-472C-8DF2-EF59370E6E6C-51646-00054A72AC4B016B</string>
 								<key>zIndex</key>
-								<integer>33</integer>
+								<integer>31</integer>
 							</dict>
 						</array>
 						<key>firstKeyframeIsRelative</key>
@@ -77477,7 +77358,7 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>2</real>
+								<real>1</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -77487,14 +77368,12 @@
 										<key>actions</key>
 										<array>
 											<dict>
-												<key>duration</key>
-												<real>1.1000000000000001</real>
-												<key>sceneSymbol</key>
-												<integer>1</integer>
-												<key>transition</key>
-												<integer>1</integer>
+												<key>loop</key>
+												<false/>
+												<key>resourceGroupOid</key>
+												<string>1343</string>
 												<key>type</key>
-												<integer>1</integer>
+												<integer>12</integer>
 											</dict>
 										</array>
 									</dict>
@@ -77536,6 +77415,68 @@
 								<string>031E52B9-800C-4CBE-A170-B64FF6D08DAD-51646-0005C04E8B481A9C</string>
 								<key>zIndex</key>
 								<integer>21</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>1</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>duration</key>
+												<real>1.1000000000000001</real>
+												<key>sceneSymbol</key>
+												<integer>1</integer>
+												<key>transition</key>
+												<integer>1</integer>
+												<key>type</key>
+												<integer>1</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>identifier</key>
+								<string>ActionHandler</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>kTimelineDefaultIdentifier</string>
+								<key>startTime</key>
+								<real>17</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>loop</key>
+												<false/>
+												<key>resourceGroupOid</key>
+												<string>1343</string>
+												<key>type</key>
+												<integer>12</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>2</integer>
+								<key>uuid</key>
+								<string>2021699E-7A7D-4A56-9D34-8B95A08BD94F-370-00000B2D5CAA79B4</string>
+								<key>zIndex</key>
+								<integer>22</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -77607,7 +77548,7 @@
 								<key>uuid</key>
 								<string>3D31F3F9-B649-472C-8DF2-EF59370E6E6C-51646-00054A72AC4B016B</string>
 								<key>zIndex</key>
-								<integer>22</integer>
+								<integer>23</integer>
 							</dict>
 						</array>
 						<key>firstKeyframeIsRelative</key>
